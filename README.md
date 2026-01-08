@@ -2,8 +2,8 @@
 <h3 align="center">AI Image Algorithm Engineer | Medical Imaging Specialist</h3>
 
 <p align="center">
-  <a href="mailto:1716017660@qq.com">
-    <img src="https://img.shields.io/badge/Email-1716017660@qq.com-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:hkaibin@outlook.com">
+    <img src="https://img.shields.io/badge/Email-hkaibin@outlook.com-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
   </p>
 
@@ -11,13 +11,23 @@
 
 ### 👨‍💻 About Me
 
-[cite_start]我是黄楷镔，一名专注于**医学图像处理**与**深度学习**的算法工程师 [cite: 4, 13][cite_start]。硕士毕业于深圳大学电子信息专业（医学部）[cite: 6]。
+我是黄楷镔，一名专注于**医学图像处理**与**深度学习**的算法工程师。硕士毕业于深圳大学电子信息专业（医学部）。
 
-[cite_start]我有丰富的实战经验，曾在**深圳迈瑞 (Mindray)** 担任算法实习生，负责模型泛化能力提升 [cite: 16, 17][cite_start]。我擅长将 PyTorch/TensorFlow 应用于医学影像的分割、分类、检测与配准任务 [cite: 12, 13]。
+我有丰富的实战经验，曾在**深圳迈瑞 (Mindray)** 担任算法实习生，负责模型泛化能力提升。我擅长将 PyTorch/TensorFlow 应用于医学影像的分割、分类、检测与配准任务。
 
-* [cite_start]🏆 **荣誉:** 2021“觅影”医学人工智能算法大赛季军 [cite: 54] | [cite_start]研究生一等学业奖学金 [cite: 8]
-* [cite_start]🔭 **研究方向:** 全身骨显像病灶检测、染色体核型分析、医学影像组学 [cite: 23, 27, 37]
-* [cite_start]📝 **发表成果:** 论文涉及 Bioinformatics (Major Revision) 及 SNMMI 核医学顶会 [cite: 26, 49]
+* 🏆 **荣誉:** [<img src="https://img.shields.io/badge/Award-3rd%20Place-FFD700?style=flat-square&logo=tencent&logoColor=black" height="18"/> 2021“觅影”医学人工智能算法大赛 - 季军](https://contest.taop.qq.com/) | 研究生一等学业奖学金
+* 🔭 **研究方向:** 全身骨显像病灶检测、染色体核型分析、医学影像组学
+
+---
+
+### 📝 Publications
+
+我对学术研究充满热情，相关成果已发表于顶级期刊与会议：
+
+* **[Bioinformatics]** [An end-to-end multi-task system of automatic lesion detection and anatomical localization in whole-body bone scintigraphy by deep learning](https://academic.oup.com/bioinformatics/article/39/1/btac753/6842323)
+    * *Published in Oxford Bioinformatics (IF: 6.931)*
+* **[SNMMI]** [An end-to-end automatic lesion detection system in whole-body bone scintigraphy by deep learning](https://jnm.snmjournals.org/content/62/supplement_1/142.abstract)
+    * * presented at Society of Nuclear Medicine and Molecular Imaging Annual Meeting*
 
 ---
 
@@ -43,19 +53,19 @@
 
 | 项目名称 | 核心工作 & 技术栈 | 成果 |
 | :--- | :--- | :--- |
-| [cite_start]**全身骨显像病灶检测与定位**<br>*(负责人)* [cite: 23] | 构建多任务学习网络（病灶分割+骨架分割），解决类别不平衡问题。<br>`PyTorch` `Multi-task Learning` `Semi-supervised` | [cite_start]**召回率 90%** (病灶)<br>**精度 83%** (骨架) [cite: 24, 25] |
-| [cite_start]**中期染色体核型分析**<br>*(负责人)* [cite: 27] | 提出基于 ORB/RANSAC 的自动标注算法；设计 SeRol Align 模块解决尺度问题。<br>`Mask RCNN` `Instance Segmentation` `SeRol Align` | [cite_start]实例分割精度 **90%**<br>较 SOTA 提升 **21%** [cite: 34] |
-| [cite_start]**迈瑞医疗 - 模型泛化提升**<br>*(实习项目)* [cite: 16] | 设计基于 CycleGAN 的即插式通用泛化模型，用于腹围及乳腺超声任务。<br>`CycleGAN` `Domain Adaptation` | [cite_start]乳腺肿块分割精度<br>**提升 9.0%** [cite: 21] |
-| [cite_start]**乳腺肿块良恶性分类**<br>*(主要成员)* [cite: 37] | 使用 PyRadiomics 提取多模态影像组学特征，进行良恶性分级。<br>`PyRadiomics` `3D Slicer` `DICOM` | [cite_start]验证了多模态特征<br>的有效性 [cite: 40, 41] |
+| **全身骨显像病灶检测与定位**<br>*(负责人)* | 构建多任务学习网络（病灶分割+骨架分割），解决类别不平衡问题。<br>`PyTorch` `Multi-task Learning` `Semi-supervised` | **相关论文已发表**<br>[🔗 View Paper](https://academic.oup.com/bioinformatics/article/39/1/btac753/6842323) |
+| **中期染色体核型分析**<br>*(负责人)* | 提出基于 ORB/RANSAC 的自动标注算法；设计 SeRol Align 模块解决尺度问题。<br>`Mask RCNN` `Instance Segmentation` `SeRol Align` | 实例分割精度 **90%**<br>较 SOTA 提升 **21%** |
+| **迈瑞医疗 - 模型泛化提升**<br>*(实习项目)* | 设计基于 CycleGAN 的即插式通用泛化模型，用于腹围及乳腺超声任务。<br>`CycleGAN` `Domain Adaptation` | 乳腺肿块分割精度<br>**提升 9.0%** |
+| **乳腺肿块良恶性分类**<br>*(主要成员)* | 使用 PyRadiomics 提取多模态影像组学特征，进行良恶性分级。<br>`PyRadiomics` `3D Slicer` `DICOM` | 验证了多模态特征<br>的有效性 |
 
 ---
 
 ### 🎓 Education
 
 * **硕士 (Master's)** in Electronic Information (Medical Dept.)
-    * [cite_start]*深圳大学 (Shenzhen University), 2020.09 - 2023.07* [cite: 6, 7]
+    * *深圳大学 (Shenzhen University), 2020.09 - 2023.07*
 * **本科 (Bachelor's)** in Biomedical Engineering
-    * [cite_start]*深圳大学 (Shenzhen University), 2016.09 - 2020.07* [cite: 8, 9]
+    * *深圳大学 (Shenzhen University), 2016.09 - 2020.07*
 
 ---
 
