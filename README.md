@@ -5,7 +5,7 @@
   <a href="mailto:hkaibin@outlook.com">
     <img src="https://img.shields.io/badge/Email-hkaibin@outlook.com-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://github.com/your-username">
+  <a href="https://github.com/CabinH">
     <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
@@ -20,7 +20,7 @@
 
 * 💼 **当前工作:** 专注于 CBCT 影像链优化，包括低剂量成像、伪影去除及稀疏角度重建。
 * 🚀 **核心能力:** **Medical Image Restoration** (Denoising/SR) & **High-Performance Deployment** (TensorRT/FP16/INT8).
-* 🏆 **荣誉:** 2021“觅影”医学人工智能算法大赛 **季军** | 深圳大学优秀研究生干部.
+* 🏆 **荣誉:** 2021“觅影”医学人工智能算法大赛 **季军** | 深圳大学研究生一等学业奖学金.
 
 ---
 
@@ -93,5 +93,5 @@
 ---
 
 <p align="center">
-  <i>"Talk is cheap, show me the code."</i>
+  <i>"smile."</i>
 </p>>
